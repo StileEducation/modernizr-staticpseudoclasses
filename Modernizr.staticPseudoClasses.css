@@ -1,0 +1,6 @@
+/* Add the CSS to check */
+.static-pseudo-classes-test{
+    &:not(:only-child) {
+        display: none;
+    }
+}
